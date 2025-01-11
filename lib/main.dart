@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/sources/pages/animations_page.dart';
-import 'package:flutter_application_1/sources/widgets/headers.dart';
+import 'package:flutter_application_1/sources/challenges/animated_square_page.dart';
+// import 'package:flutter_application_1/sources/pages/animations_page.dart';
+// import 'package:flutter_application_1/sources/widgets/headers.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Disenios App',
       // home: HeaderCurvo(),
-      home: AnimationsPage(),
+      home: AnimatedSquarePage(),
       
     );
   }

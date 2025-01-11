@@ -4,7 +4,7 @@ class HeaderCuadrado extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 300,
+      height: 100,
       color: Color(0xff665646),
     );
   }
